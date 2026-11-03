@@ -4,6 +4,12 @@ Projeto pessoal desenvolvido em Python com o objetivo de organizar e disponibili
 
 O projeto surgiu da necessidade de facilitar a consulta às habilidades e aos conteúdos de Computação na Educação Básica. Para isso, desenvolvi um processo de extração e tratamento de dados diretamente do documento PDF da BNCC, convertendo as informações em uma estrutura JSON consumida pela API.
 
+## Desafios do desenvolvimento
+
+Um dos principais desafios foi a estrutura do documento PDF original da BNCC. As tabelas estavam distribuídas entre páginas consecutivas, dificultando a extração automatizada das informações.
+
+Para contornar essa limitação, desenvolvi um processo de junção de páginas do PDF, utilizando PyMuPDF para reorganizar as tabelas e viabilizar sua extração e posterior tratamento com Pandas.
+
 ## Funcionalidades
 
 - Extração de tabelas diretamente do documento PDF da BNCC.
