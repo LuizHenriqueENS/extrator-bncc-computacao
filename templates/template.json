@@ -1,0 +1,13 @@
+{
+  "codigo": "EF07CO05",
+  "etapa": "EF",
+  "ano": 7,
+  "componente": "Computação",
+  "eixo": "Pensamento Computacional",
+  "objeto_conhecimento": "Estratégias de solução de problemas",
+  "subtema": "Reúso",
+  "competencia": "Empregar diferentes estratégias da Computação (decomposição, generalização e reúso) para construir a solução de problemas.",
+  "habilidade": "Criar algoritmos fazendo uso da decomposição e do reúso no processo de solução de forma colaborativa e cooperativa e automatizá-los usando uma linguagem de programação.",
+  "explicacao": "...",
+  "exemplos": ["Criar um algoritmo para organizar um baralho..."]
+}
